@@ -20,7 +20,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:fontFamily="casual"
+            android:fontFamily="times new roman"
             android:text="Update Task"
             android:textColor="#673AB7"
             android:textSize="24sp"
@@ -64,6 +64,7 @@
                     android:background="#FFFFFF"
                     android:fontFamily="casual"
                     android:inputType="text"
+                    android:textColor="@color/input_text"
                     android:textStyle="bold" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -80,11 +81,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#FFFFFF"
-                    android:fontFamily="casual"
+                    android:fontFamily="times new roman"
                     android:gravity="top|start"
                     android:inputType="textMultiLine"
                     android:lines="5"
                     android:maxLines="5"
+                    android:textColor="@color/input_text"
                     android:textStyle="bold" />
 
             </com.google.android.material.textfield.TextInputLayout>

@@ -25,8 +25,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="16dp"
-                android:fontFamily="cursive"
-                android:text="Welcome !"
+                android:fontFamily="times new roman"
+                android:text="Welcome!"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -38,8 +38,8 @@
                 android:layout_below="@id/welcomeTxt"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="4dp"
-                android:fontFamily="casual"
-                android:text="Today's Task"
+                android:fontFamily="times new roman"
+                android:text="Manage Your tasks"
                 android:textColor="@color/white"
                 android:textSize="28sp"
                 android:textStyle="bold" />
