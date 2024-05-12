@@ -75,7 +75,8 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginVertical="4dp"
-                android:src="@drawable/ic_edit" />
+                android:src="@drawable/ic_edit"
+                android:tint="#41AE46" />
 
             <ImageView
                 android:id="@+id/deleteImg"

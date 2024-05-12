@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="10dp"
-    app:cardBackgroundColor="#DFD3E1"
+    app:cardBackgroundColor="#2CA0AF"
     app:cardCornerRadius="8dp">
 
     <RelativeLayout
@@ -22,7 +22,7 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="times new roman"
             android:text="Add a Task"
-            android:textColor="#3044B1"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -35,14 +35,15 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:src="@drawable/ic_close" />
+            android:src="@drawable/ic_close"
+            android:tint="@color/white" />
 
         <View
             android:id="@+id/viewHLine"
             android:layout_width="match_parent"
             android:layout_height="3dp"
             android:layout_below="@id/titleTaskTxt"
-            android:background="#9C27B0" />
+            android:background="@color/input_text" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +68,7 @@
                     android:background="@color/white"
                     android:fontFamily="times new roman"
                     android:inputType="text"
-                    android:textColor="#17246A"
+                    android:textColor="@color/input_text"
                     android:textColorHighlight="#FBFBFB"
                     android:textColorHint="#FFFFFF"
                     android:textStyle="bold" />
@@ -103,7 +104,7 @@
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp"
-                android:backgroundTint="#0E2085"
+                android:backgroundTint="@color/input_text"
                 android:fontFamily="times new roman"
                 android:text="Save Task"
                 android:textSize="20sp"

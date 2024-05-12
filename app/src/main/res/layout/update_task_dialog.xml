@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="10dp"
-    app:cardBackgroundColor="#FFEBF2"
+    app:cardBackgroundColor="#2CA0AF"
     app:cardCornerRadius="8dp">
 
     <RelativeLayout
@@ -22,7 +22,7 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="times new roman"
             android:text="Update Task"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -31,15 +31,19 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentEnd="true"
-            android:layout_margin="8dp"
-            android:src="@drawable/ic_close" />
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_close"
+            android:tint="@color/white" />
 
         <View
             android:id="@+id/viewHLine"
             android:layout_width="match_parent"
             android:layout_height="3dp"
             android:layout_below="@id/titleTaskTxt"
-            android:background="#673AB7" />
+            android:background="@color/input_text" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -98,7 +102,7 @@
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp"
-                android:backgroundTint="#50145A"
+                android:backgroundTint="@color/input_text"
                 android:text="Update Task"
                 android:textSize="20sp" />
         </LinearLayout>
